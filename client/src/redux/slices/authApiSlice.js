@@ -28,15 +28,6 @@ export const authApiSlice = apiSlice.injectEndpoints({
                     credentials: 'include',
                 }),
             }),
-
-            signup:builder.mutation({
-                query: (data) =>({
-                    url: `${AUTH_URL}/signup`,
-                    method:"POST",
-                    body:data,
-                    credentials: 'include',
-                }),
-            }),
             
         }),
 })
