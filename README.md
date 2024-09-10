@@ -18,6 +18,7 @@ The tool improves efficiency, transparency, and communication within teams, maki
      <ol>
        <li>React (Vite)</li>
        <li>Redux Toolkit for State Management</li>
+       <li>Vite-react</li>
        <li>Tailwind CSS</li>
      </ol>
      
@@ -64,6 +65,7 @@ For more details, refer to the <a href = "https://www.mongodb.com/docs/manual/">
     <li>Open the project in any editor of choice.</li>
     <li>Navigate into the server directory cd server.</li>
     <li>Run npm i or npm install to install the packages.</li>
+  <!--   add "type":"module" in pakeckage.json for import syntax use in backend -->
     <li>Run npm start to start the server.</li>
   </ol>
 
